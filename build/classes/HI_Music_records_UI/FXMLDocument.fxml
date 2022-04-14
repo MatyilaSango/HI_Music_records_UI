@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="1062.0" style="-fx-background-color: #2D364C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="563.0" layoutY="75.0" prefHeight="476.0" prefWidth="427.0" style="-fx-background-color: #C44624;">
+         <children>
+            <Label layoutX="177.0" layoutY="73.0" text="Log in" textAlignment="CENTER">
+               <font>
+                  <Font size="27.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.3229055106639862" green="0.10203459858894348" blue="0.8815789222717285" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="-42.0" layoutY="-66.0" prefHeight="197.0" prefWidth="473.0" rotate="42.5" style="-fx-background-color: #C44624; -fx-background-radius: 30;" />
+      <ImageView fitHeight="284.0" fitWidth="291.0" layoutX="102.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/HI%20Music%20-%20black.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="990.0" layoutY="14.0" prefHeight="33.0" prefWidth="43.0" styleClass="Pane" stylesheets="@CSS/styles.css">
+         <children>
+            <ImageView fitHeight="33.0" fitWidth="23.0" layoutX="8.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/close_window_50px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
