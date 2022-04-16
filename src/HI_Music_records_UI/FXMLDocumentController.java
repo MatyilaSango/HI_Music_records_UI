@@ -32,6 +32,11 @@ public class FXMLDocumentController implements Initializable {
         System.out.println("Password is: "+password.getText());
     }
     
+    @FXML
+    private void ExitButtonAction(ActionEvent event){
+        System.exit(0);
+    }
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO

@@ -8,7 +8,6 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.paint.RadialGradient?>
 <?import javafx.scene.paint.Stop?>
@@ -69,15 +68,6 @@
             <Image url="@images/HI%20Music%20-%20black.png" />
          </image>
       </ImageView>
-      <Pane layoutX="990.0" layoutY="14.0" prefHeight="33.0" prefWidth="43.0" styleClass="Pane" stylesheets="@CSS/styles.css">
-         <children>
-            <ImageView fitHeight="33.0" fitWidth="23.0" layoutX="8.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@images/close_window_50px.png" />
-               </image>
-            </ImageView>
-         </children>
-      </Pane>
       <Text fill="#ff3a00" layoutX="381.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HI MUSIC MANAGEMENT SYSTEM">
          <font>
             <Font size="24.0" />
@@ -87,6 +77,15 @@
          <font>
             <Font name="SansSerif Bold" size="14.0" />
          </font>
+      </Button>
+      <Button fx:id="exitButton" layoutX="990.0" layoutY="16.0" mnemonicParsing="false" onAction="#ExitButtonAction" prefHeight="33.0" prefWidth="34.0" styleClass="exitButton" stylesheets="@CSS/styles.css">
+         <graphic>
+            <ImageView fitHeight="33.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/close_window_50px.png" />
+               </image>
+            </ImageView>
+         </graphic>
       </Button>
    </children>
 </AnchorPane>
