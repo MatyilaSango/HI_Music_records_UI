@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="1062.0" style="-fx-background-color: #2D364C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HI_Music_records_UI.FXMLDocumentController">
+<AnchorPane fx:id="anchorPanelParent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="1062.0" style="-fx-background-color: #2D364C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HI_Music_records_UI.FXMLDocumentController">
    <children>
       <AnchorPane layoutX="563.0" layoutY="75.0" prefHeight="476.0" prefWidth="427.0" style="-fx-background-color: #C44624; -fx-border-color: #9F7C3F; -fx-border-width: 5;">
          <children>
@@ -61,7 +61,8 @@
                   <Font name="SansSerif Bold" size="12.0" />
                </font>
             </Button>
-         </children></AnchorPane>
+         </children>
+      </AnchorPane>
       <AnchorPane layoutX="-42.0" layoutY="-66.0" prefHeight="197.0" prefWidth="473.0" rotate="42.5" style="-fx-background-color: #C44624; -fx-background-radius: 30;" />
       <ImageView fitHeight="284.0" fitWidth="291.0" layoutX="102.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -73,7 +74,7 @@
             <Font size="24.0" />
          </font>
       </Text>
-      <Button layoutX="183.0" layoutY="451.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" styleClass="Button" stylesheets="@CSS/styles.css" text="SIGN UP">
+      <Button fx:id="signUpButton" layoutX="183.0" layoutY="451.0" mnemonicParsing="false" onAction="#SignUpAction" prefHeight="25.0" prefWidth="129.0" styleClass="Button" stylesheets="@CSS/styles.css" text="SIGN UP">
          <font>
             <Font name="SansSerif Bold" size="14.0" />
          </font>

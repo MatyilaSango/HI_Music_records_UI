@@ -10,3 +10,10 @@
 .exitButton:hover{
     -fx-background-color: red;
 }
+
+.toSignIn{
+    -fx-background-color:  #A36862;
+}
+.toSignIn:hover{
+    -fx-background-color: #FFB555;
+}
