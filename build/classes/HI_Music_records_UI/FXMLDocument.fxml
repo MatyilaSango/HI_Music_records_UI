@@ -56,7 +56,7 @@
                   <Font name="SansSerif Bold" size="14.0" />
                </font>
             </Button>
-            <Button layoutX="149.0" layoutY="421.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #C44624;" text="forgot password!" textFill="#88a6ff">
+            <Button fx:id="toRetrivePassword" layoutX="149.0" layoutY="421.0" mnemonicParsing="false" onAction="#toRetrivePasswordAction" prefHeight="25.0" prefWidth="129.0" styleClass="toRetrivePassword" stylesheets="@CSS/styles.css" text="forgot password!" textFill="#88a6ff">
                <font>
                   <Font name="SansSerif Bold" size="12.0" />
                </font>

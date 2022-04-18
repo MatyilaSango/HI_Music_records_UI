@@ -63,6 +63,16 @@ public class FXMLDocumentController implements Initializable {
         stage.setScene(new Scene(root));
     }
     
+    @FXML 
+    private Button toRetrivePassword;
+    
+    @FXML
+    private void toRetrivePasswordAction() throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLForgotPassword.fxml"));
+        Stage stage = (Stage) toRetrivePassword.getScene().getWindow();
+        stage.setScene(new Scene(root));
+    }
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
