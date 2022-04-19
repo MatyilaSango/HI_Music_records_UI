@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Sango/Documents/NetBeansProjects/HI_Music_records_UI/src/HI_Music_records_UI/HI_Music_records_UI.java</file>
-            <file>file:/C:/Users/Sango/Documents/NetBeansProjects/HI_Music_records_UI/src/HI_Music_records_UI/FXMLRegistration.fxml</file>
+            <file>file:/C:/Users/Sango/Documents/NetBeansProjects/HI_Music_records_UI/src/HI_Music_records_UI/CSS/styles.css</file>
+            <file>file:/C:/Users/Sango/Documents/NetBeansProjects/HI_Music_records_UI/src/HI_Music_records_UI/FXMLHomeController.java</file>
+            <file>file:/C:/Users/Sango/Documents/NetBeansProjects/HI_Music_records_UI/src/HI_Music_records_UI/FXMLHome.fxml</file>
             <file>file:/C:/Users/Sango/Documents/NetBeansProjects/HI_Music_records_UI/src/HI_Music_records_UI/FXMLDocumentController.java</file>
-            <file>file:/C:/Users/Sango/Documents/NetBeansProjects/HI_Music_records_UI/src/HI_Music_records_UI/FXMLRegistrationController.java</file>
         </group>
     </open-files>
 </project-private>

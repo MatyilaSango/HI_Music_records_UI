@@ -18,6 +18,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 /**
@@ -33,9 +34,25 @@ public class FXMLDocumentController implements Initializable {
     private PasswordField password;
     
     @FXML
-    private void SignInButtonAction(ActionEvent event) {
-        System.out.println("Username is: "+username.getText());
-        System.out.println("Password is: "+password.getText());
+    private Text signErrorText;
+    
+    @FXML
+    private Button signInButton;
+    
+    @FXML
+    private void SignInButtonAction(ActionEvent event) throws IOException {
+        
+        if((username.getText().length()>0) && (password.getText().length()>0)){
+            
+            Parent root = FXMLLoader.load(getClass().getResource("FXMLHome.fxml"));
+            Stage stage = (Stage) signInButton.getScene().getWindow();
+            stage.setScene(new Scene(root));
+        }
+        else{
+            signErrorText.setText("Incorrect username or password!");
+            
+        }
+           
     }
     
     @FXML

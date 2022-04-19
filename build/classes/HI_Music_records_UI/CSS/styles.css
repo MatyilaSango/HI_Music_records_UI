@@ -23,3 +23,9 @@
     -fx-background-color: #FFB555;
     -fx-text-fill: black;
 }
+.signInButton{
+    -fx-background-color: #A36862;
+}
+.signInButton:hover{
+    -fx-background-color: #FFB555;
+}
