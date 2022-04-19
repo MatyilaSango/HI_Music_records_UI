@@ -29,3 +29,21 @@
 .signInButton:hover{
     -fx-background-color: #FFB555;
 }
+.navHome{
+    -fx-background-color:  #353D4F;
+}
+.navHome:hover{
+    -fx-background-color:  #C44624
+}
+.navMusic{
+    -fx-background-color:  #353D4F;
+}
+.navMusic:hover{
+    -fx-background-color:  #C44624
+}
+.navCreate{
+    -fx-background-color:  #353D4F;
+}
+.navCreate:hover{
+    -fx-background-color:  #C44624
+}
