@@ -25,7 +25,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <ImageView fitHeight="48.0" fitWidth="52.0" layoutX="14.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="69.0" fitWidth="78.0" layoutX="64.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/HI%20Music%20-%20black.png" />
          </image>
@@ -74,6 +74,8 @@
                   </Text>
                </children>
             </AnchorPane>
+            <Text fill="#c44624" layoutX="23.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© HI Music by SAN7Beats" />
+            <Separator layoutY="433.0" prefHeight="9.0" prefWidth="200.0" style="-fx-background-color: #C44624;" />
          </children>
       </AnchorPane>
       <Separator layoutX="214.0" layoutY="112.0" orientation="VERTICAL" prefHeight="494.0" prefWidth="13.0" style="-fx-background-color: #C44624;" />
