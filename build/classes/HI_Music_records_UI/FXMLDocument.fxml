@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="anchorPanelParent" maxHeight="626.0" maxWidth="1062.0" minHeight="626.0" minWidth="1062.0" prefHeight="626.0" prefWidth="1062.0" style="-fx-background-color: #2D364C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HI_Music_records_UI.FXMLDocumentController">
+<AnchorPane fx:id="anchorPanelParent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="1062.0" style="-fx-background-color: #2D364C;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HI_Music_records_UI.FXMLDocumentController">
    <children>
       <AnchorPane layoutX="563.0" layoutY="75.0" prefHeight="476.0" prefWidth="427.0" style="-fx-background-color: #C44624; -fx-border-color: #9F7C3F; -fx-border-width: 5;">
          <children>
@@ -84,14 +84,6 @@
             <Font name="SansSerif Bold" size="14.0" />
          </font>
       </Button>
-      <Button fx:id="exitButton" layoutX="990.0" layoutY="16.0" mnemonicParsing="false" onAction="#ExitButtonAction" prefHeight="33.0" prefWidth="34.0" styleClass="exitButton" stylesheets="@CSS/styles.css">
-         <graphic>
-            <ImageView fitHeight="33.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@images/close_window_50px.png" />
-               </image>
-            </ImageView>
-         </graphic>
-      </Button>
+      <Button fx:id="exitButton" layoutX="990.0" layoutY="16.0" mnemonicParsing="false" onAction="#ExitButtonAction" prefHeight="33.0" prefWidth="34.0" styleClass="exitButton" stylesheets="@CSS/styles.css" />
    </children>
 </AnchorPane>

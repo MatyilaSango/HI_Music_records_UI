@@ -3,18 +3,21 @@
 }
 .Button:hover{
     -fx-background-color: #FFB555;
+    -fx-cursor: hand;
 }
 .exitButton{
     -fx-background-color: #2D364C;
 }
 .exitButton:hover{
     -fx-background-color: red;
+    -fx-cursor: hand;
 }
 .toSignIn{
     -fx-background-color: #A36862;
 }
 .toSignIn:hover{
     -fx-background-color: #FFB555;
+    -fx-cursor: hand;
 }
 .toRetrivePassword{
     -fx-background-color: #C44624;
@@ -22,28 +25,33 @@
 .toRetrivePassword:hover{
     -fx-background-color: #FFB555;
     -fx-text-fill: black;
+    -fx-cursor: hand;
 }
 .signInButton{
     -fx-background-color: #A36862;
 }
 .signInButton:hover{
     -fx-background-color: #FFB555;
+    -fx-cursor: hand;
 }
 .navHome{
     -fx-background-color:  #353D4F;
 }
 .navHome:hover{
-    -fx-background-color:  #82382A
+    -fx-background-color:  #82382A;
+    -fx-cursor: hand;
 }
 .navMusic{
     -fx-background-color:  #353D4F;
 }
 .navMusic:hover{
-    -fx-background-color:  #82382A
+    -fx-background-color:  #82382A;
+    -fx-cursor: hand;
 }
 .navCreate{
     -fx-background-color:  #353D4F;
 }
 .navCreate:hover{
-    -fx-background-color:  #82382A
+    -fx-background-color:  #82382A;
+    -fx-cursor: hand;
 }

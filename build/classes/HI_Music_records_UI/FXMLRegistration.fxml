@@ -87,14 +87,5 @@
             <Font size="24.0" />
          </font>
       </Text>
-      <Button fx:id="exitButton" layoutX="990.0" layoutY="16.0" mnemonicParsing="false" onAction="#ExitButtonAction" prefHeight="33.0" prefWidth="34.0" styleClass="exitButton" stylesheets="@CSS/styles.css">
-         <graphic>
-            <ImageView fitHeight="33.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@images/close_window_50px.png" />
-               </image>
-            </ImageView>
-         </graphic>
-      </Button>
    </children>
 </AnchorPane>
