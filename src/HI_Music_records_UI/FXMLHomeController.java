@@ -25,10 +25,6 @@ import javafx.stage.Stage;
  */
 public class FXMLHomeController {
     
-    @FXML
-    private void ExitButtonAction(ActionEvent event){
-        System.exit(0);
-    }
     @FXML 
     private AnchorPane navMusic;
     
