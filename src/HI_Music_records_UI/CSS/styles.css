@@ -55,3 +55,10 @@
     -fx-background-color:  #82382A;
     -fx-cursor: hand;
 }
+.view-home-latest{
+    -fx-background-color:  #353D4F;
+}
+.view-home-latest:hover{
+    -fx-background-color:  #82382A;
+    -fx-cursor: hand;
+}

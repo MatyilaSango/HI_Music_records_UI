@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -36,7 +38,7 @@
                   </Text>
                </children>
             </AnchorPane>
-            <AnchorPane fx:id="navMusic" layoutX="9.0" layoutY="110.0" prefHeight="48.0" prefWidth="182.0" styleClass="navMusic" stylesheets="@CSS/styles.css">
+            <AnchorPane fx:id="navMusic" layoutX="9.0" layoutY="110.0" onMouseClicked="#toMusicAction" prefHeight="48.0" prefWidth="182.0" styleClass="navMusic" stylesheets="@CSS/styles.css">
                <children>
                   <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="6.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -69,6 +71,28 @@
          </children>
       </AnchorPane>
       <Separator layoutX="214.0" layoutY="112.0" orientation="VERTICAL" prefHeight="494.0" prefWidth="13.0" style="-fx-background-color: #C44624;" />
-      <AnchorPane layoutX="227.0" layoutY="111.0" prefHeight="494.0" prefWidth="823.0" style="-fx-background-color: #384053;" />
+      <AnchorPane layoutX="227.0" layoutY="111.0" prefHeight="494.0" prefWidth="823.0" style="-fx-background-color: #384053;">
+         <children>
+            <AnchorPane layoutX="54.0" layoutY="58.0" prefHeight="266.0" prefWidth="673.0" style="-fx-background-color: #333A4B;">
+               <children>
+                  <Separator layoutX="21.0" layoutY="53.0" prefHeight="1.0" prefWidth="626.0" style="-fx-background-color: #2D364C;" />
+                  <Label fx:id="latestSongNameLabel" layoutX="21.0" layoutY="20.0" prefHeight="32.0" prefWidth="108.0">
+                     <font>
+                        <Font name="SansSerif Regular" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button fx:id="viewHomeLatest" layoutX="337.0" layoutY="450.0" mnemonicParsing="false" onAction="#viewLatestMusic" prefHeight="30.0" prefWidth="108.0" styleClass="view-home-latest" stylesheets="@CSS/styles.css" text="View latest">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <Text layoutX="543.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
