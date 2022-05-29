@@ -39,8 +39,6 @@ public class FXMLHomeController {
         stage.setScene(new Scene(root));
     }
     
-    @FXML 
-    private Button viewHomeLatest;
     @FXML
     private Label latestSongNameLabel;
     
