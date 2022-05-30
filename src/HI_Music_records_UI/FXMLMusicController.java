@@ -49,7 +49,8 @@ public class FXMLMusicController {
     }
     
     private class data{
-        SimpleStringProperty name, code;
+        SimpleStringProperty name; 
+        SimpleStringProperty code;
         
         private data(String name, String code){
             this.name = new SimpleStringProperty(name);
@@ -88,7 +89,6 @@ public class FXMLMusicController {
             String[] tmplist = Code.split(">");
             String songName = tmplist[tmplist.length-2].replaceAll("</a", "");
             obl.add(new data(songName, Code));
-            System.out.println(Link);
         }
         
         songTable.setItems(obl);
