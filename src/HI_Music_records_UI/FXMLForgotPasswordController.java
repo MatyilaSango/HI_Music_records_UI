@@ -30,7 +30,7 @@ public class FXMLForgotPasswordController {
     
     @FXML
     private void toSignInAction() throws IOException{
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLLogIn.fxml"));
         Stage stage = (Stage) toSignIn.getScene().getWindow();
         stage.setScene(new Scene(root));
     }
