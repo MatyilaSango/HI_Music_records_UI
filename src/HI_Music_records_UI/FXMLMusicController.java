@@ -30,12 +30,21 @@ import javafx.stage.Stage;
 public class FXMLMusicController {
     
     @FXML 
-    private AnchorPane navMusic;
+    private AnchorPane navCreate;
+    
+    @FXML
+    private void toCreateAction() throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLCreate.fxml"));
+        Stage stage = (Stage) navCreate.getScene().getWindow();
+        stage.setScene(new Scene(root));
+    }
+    @FXML 
+    private AnchorPane navHome;
     
     @FXML
     private void toHomeAction() throws IOException{
         Parent root = FXMLLoader.load(getClass().getResource("FXMLHome.fxml"));
-        Stage stage = (Stage) navMusic.getScene().getWindow();
+        Stage stage = (Stage) navHome.getScene().getWindow();
         stage.setScene(new Scene(root));
     }
     

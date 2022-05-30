@@ -53,7 +53,7 @@
                   </Text>
                </children>
             </AnchorPane>
-            <AnchorPane fx:id="navCreate" layoutX="9.0" layoutY="199.0" prefHeight="48.0" prefWidth="182.0" styleClass="navCreate" stylesheets="@CSS/styles.css">
+            <AnchorPane fx:id="navCreate" layoutX="9.0" layoutY="199.0" onMouseClicked="#toCreateAction" prefHeight="48.0" prefWidth="182.0" styleClass="navCreate" stylesheets="@CSS/styles.css">
                <children>
                   <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="6.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
                      <image>

@@ -1,4 +1,5 @@
 
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -7,6 +8,7 @@
 package HI_Music_records_UI;
 
 import java.io.IOException;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -18,8 +20,17 @@ import javafx.stage.Stage;
  *
  * @author Sango
  */
-public class FXMLHomeController {
+public class FXMLCreateController {
     
+    @FXML 
+    private AnchorPane navHome;
+    
+    @FXML
+    private void toHomeAction() throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLHome.fxml"));
+        Stage stage = (Stage) navHome.getScene().getWindow();
+        stage.setScene(new Scene(root));
+    }
     @FXML 
     private AnchorPane navMusic;
     
@@ -27,15 +38,6 @@ public class FXMLHomeController {
     private void toMusicAction() throws IOException{
         Parent root = FXMLLoader.load(getClass().getResource("FXMLMusic.fxml"));
         Stage stage = (Stage) navMusic.getScene().getWindow();
-        stage.setScene(new Scene(root));
-    }
-    @FXML 
-    private AnchorPane navCreate;
-    
-    @FXML
-    private void toCreateAction() throws IOException{
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLCreate.fxml"));
-        Stage stage = (Stage) navCreate.getScene().getWindow();
         stage.setScene(new Scene(root));
     }
 }
